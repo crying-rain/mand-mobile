@@ -8,7 +8,8 @@
 	</div>
 </template>
 
-<script>import {Amount} from 'mand-mobile'
+<script>
+import {Amount} from 'mand-mobile'
 
 export default {
   name: 'amount-demo',
@@ -28,12 +29,13 @@ export default {
     setTimeout(() => {
       this.val = 1500
       setTimeout(() => {
-        this.val = 500
+        this.val = 500000000000099887778
       }, 2000)
     }, 2000)
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus" scoped>
 .md-example-child-amount
